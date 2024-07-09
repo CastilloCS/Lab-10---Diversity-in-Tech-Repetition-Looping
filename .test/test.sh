@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Compile the Java code
-javac -encoding utf8 -classpath .:./.github/test/junit-platform-console-standalone-1.11.0-M2.jar .github/test/TestMain.java Main.java
+javac -encoding utf8 -classpath .:./.github/test/junit-platform-console-standalone-1.11.0-M2.jar .github/test/TestMain.java Main.java BarGraph.java ColorCode.java UtilityBelt.java
 # Check if compilation was successful
 if [ $? -ne 0 ]; then
     exit 1
