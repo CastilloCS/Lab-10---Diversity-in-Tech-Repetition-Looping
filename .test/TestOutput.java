@@ -1,3 +1,4 @@
+import org.junit.Before;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -30,7 +31,7 @@ public class TestOutput
     }
 
     @ParameterizedTest(name="{0}")
-    @CsvFileSource(resources = ".test/output_tests.csv")
+    @CsvFileSource(resources = "output_tests.csv")
     public void testOutputMatch(String testCaseName, String input, String expectedOutput, String matchType)
     {
         // Capture stdout
