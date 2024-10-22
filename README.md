@@ -1,6 +1,6 @@
  ![screenshot of Diversity in Tech website](https://i.imgur.com/K7NTdy0.png)
 
-# Lab 13 - Diversity In Tech + Repetition/Looping
+# Lab 10 - Diversity In Tech + Repetition/Looping
 
 **Create a visual representation of the data from [Diversity in Tech website](https://informationisbeautiful.net/visualizations/diversity-in-tech/) using a Bar Graph Generator Program**
 
